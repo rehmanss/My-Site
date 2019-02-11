@@ -1,0 +1,245 @@
+/*-- rehman shabab styles --*/
+
+p, li, address{
+	font-size: 18px;
+	font-family: Roboto, sans-serif; 
+	line-height: 1.6em; 
+	margin:0 0 20px;
+
+	}
+
+/*-- Navigation Styles --*/
+
+.main-navigation {
+	width:100%;
+	float: left;
+
+}
+.main-navigation ul {
+	width: 100%;
+	float: left;
+	list-style: none;
+	text-align: center;
+	padding:0;
+	margin:0;
+}
+.main-navigation li{
+	display: inline-block;
+	margin: 0 20px;
+
+
+}
+
+.main-navigation li a{
+	display: inline-block;
+	color: white;
+	font-size: 23px;
+	font-family: 'Poiret One', cursive;
+	text-decoration: none;
+
+}
+.main-navigation li a:hover {
+	color: #ccc;
+}
+
+
+.page-top{
+	text-align: center;
+	float: left;
+	width: 100%;
+	padding: 100px 30px 30px;
+	margin-bottom:20px;
+	box-sizing: border-box;
+	background: white;
+	position:relative;
+	margin-top:75px;
+	box-shadow:1px 1px 0 0 rgba(0,0,0,0.2);
+
+
+}
+
+.profile-picture-container {
+	position:absolute;
+	top:-75px;
+	left:0;
+	width: 100%;
+}
+
+.profile-pciture {
+	background:url('../images/profilepic.jpg') center center no-repeat;
+	background-size:cover;
+	width:150px;
+	height:150px;
+	display:block;
+	margin:0 auto;
+	border-radius: 50%;
+
+
+
+
+}
+
+.heading1-style {
+	font-family: 'Poiret One', cursive;
+}
+
+.heading2-style {
+	font-family: 'Poiret One', cursive;
+	color:#0767B3;
+	text-transform:uppercase;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:1px;
+}
+
+/*--  Page Row Styles --*/
+
+
+.profilepic {
+	padding: 10px;
+	width: 130px;
+	height: 130px; 
+
+}
+
+.main-header {
+	z-index: 99;
+	position: fixed;
+	top: 0; 
+	left: 0;
+	width: 100%;
+	background: #0174DF;
+	padding:15px 0;
+	border-bottom: 13px solid #5480E8;
+	box-shadow:1px 1px 0 0 rgba(0,0,0,0.2);
+}
+
+.page-main {
+
+	margin-top: 90px;
+}
+
+.wrap {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 950px;
+}
+
+.page-row {
+	padding:40px 0;
+	float:left;
+	width:100%;
+}
+
+.page-row h3 {
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	position:relative;
+}
+
+.page-row h3 span {
+	display:inline-block;
+	line-height:30px;
+	background:#F0F0F0;
+	padding:0 20px;
+	position:relative;
+	z-index:2;
+}
+
+.page-row h3:after {
+	content:'';
+	border-bottom:1px solid #ccc;
+	height:15px;
+	position:absolute;
+	left:20%;
+	top:0;
+	width:60%;
+	z-index:1;
+}
+
+.contain-block{
+	background: white;
+	float: left;
+	width: 100%;
+	padding: 30px;
+	box-sizing: border-box;
+	box-shadow:1px 1px 0 0 rgba(0,0,0,0.2);
+
+}
+
+.fadeinblocks {
+	float: left;
+	width: 100%;
+	margin: 0;
+	position: relative;
+	padding: 0;
+	list-style: none;	
+}
+
+.fadeinblocks li {
+	float: left;
+	width: 100%;
+	margin:0 0 20px;
+}
+.fadeinblocks .inner {
+	float: left;
+	width: 40%;
+	background: white;
+	padding: 20px;
+	box-sizing: border-box;
+	box-shadow:1px 1px 0 0 rgba(0,0,0,0.2);
+	position:relative;
+}
+
+.fadeinblocks .inner:after {
+	content: '';
+	position: absolute;
+	right:-30px;
+	top:0;
+	width:30%;
+	height:30px;
+	background:white;
+	display:block;
+}
+
+.fadeinblocks .odd .inner {
+	float:right;
+}
+
+.fadeinblocks:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	border-right: 2px solid #0174DF;
+	display: block;
+	left: 50%;
+	width: 1px;
+	margin: 0 auto;
+
+}
+
+.fadeinblocks .inner:after {
+	width: 0; 
+	height: 0; 
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50px 50px 0 0;
+	border-color: white transparent transparent transparent;
+	position: absolute;
+	right: -50px;
+	top: 0;
+	display: block;
+	background:none;
+}
+
+.fadeinblocks .odd .inner:after {
+	border-width: 0 50px 50px 0;
+	border-color: transparent white transparent transparent;
+	right: auto;
+	left:-50px;
+}
